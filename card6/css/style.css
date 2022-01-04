@@ -1,0 +1,110 @@
+body{
+    background: #a6d5ff;
+    height:100vh;
+}
+section{
+    /* width: auto; */
+    margin: 0 auto;
+    background:#f6f3fe;
+    overflow: auto;
+    width: 630px;
+    border-radius:5px;
+}
+/* .img{
+    display: inline-block;
+    background-image: url(http://bit.ly/2tMBBTd);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: contain;
+    width: auto;
+} */
+.info{
+    text-align: center;
+    width: 50%;
+}
+.info h2{
+    margin: 23px 25px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.9rem;
+    position: relative;
+}
+.titulo{
+    position: relative;
+}
+.titulo h2{
+    font-family: 'Old Standard TT', serif;
+}
+.titulo-new{
+    display: inline-block;
+    position: absolute;
+    left: 177px;
+    top: -5px;
+    width: 27px;
+}
+
+.titulo-new img{
+    width: 100%;
+}
+.titulo-puntuacion{
+    position: absolute;
+    top: 37px;
+    left: 30px;
+    color: gold;
+    font-size: 0.7rem;
+}
+
+.cuerpo p{
+    font-size: 0.8rem;
+    color: rgb(177, 177, 177);
+    font-weight: 50;
+    margin: 36px 25px 32px 0;
+}
+.imagenPrincipal{
+    width: 50%;
+    float: right;
+    height: 297px;
+}
+
+p{
+    font-family: 'Farsan', cursive;
+}
+
+.pagar{
+    /* background: #333333; */
+    width: 166px;
+    margin: 0px 0 0 71px;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 35px;
+    position: relative;
+}
+.precio{
+    background: #333333;
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    overflow: hidden;
+}
+.precio p {
+    color:#fff;
+    /* display: inline-block; */
+    height: 50px;
+    margin:  0;
+    padding: 11px;
+}
+.pagar button{
+    background-color: #49C609;
+    position: absolute;
+    top: -1px;
+    left: 48px;
+    padding: 12px 28px 15px 24px;
+    /* width: 60%; */
+    /* border-radius: 0px 5px 5px 0px; */
+    border: none;
+    color:#fff;
+}
+
+div, section{
+    /* border:1px solid black; */
+}

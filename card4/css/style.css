@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:15px;
+}
+body{
+    background: #717171;
+    height:100vh;
+}
+
+section{
+    background-image:url(https://image.freepik.com/vector-gratis/vector-fondo-banner-blog-textura-madera-gris_53876-111530.jpg);
+    width:615px;
+    margin: 0 auto;
+
+}
+.card{
+    width: 130px;
+    height: 200px;
+    background: #f7f5ec;
+    margin: 10px 10px;
+    display: inline-block;
+}
+.card-img{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    position: relative;
+    top:20px;
+}
+.card-img1{
+    background-image: url(https://randomuser.me/api/portraits/women/50.jpg);
+}
+.card-img2{
+    background-image: url(https://randomuser.me/api/portraits/women/91.jpg);
+}
+.card-img3{
+    background-image: url(https://randomuser.me/api/portraits/men/73.jpg);
+}
+.card-img4{
+    background-image: url(https://randomuser.me/api/portraits/women/76.jpg);
+}
+.card-texto{
+    text-align: center;
+    position: relative;
+    top:50px;
+}
+.card-texto h4{
+    font-size:1rem;
+    padding:0 0 5px 0;
+}
+.card-texto p{
+    font-size:0.7rem
+}
+.card-iconos{
+    height: 21px;
+    position: relative;
+    top: 56px;
+    margin: 0 auto;
+    background: #1369ce;
+}
+.card-iconos-centrado{
+    width:110px;
+    margin:0 auto;
+    height: 20px;
+    /* z-index: 50; */
+}
+.card-iconos i{
+    color: #fff;
+    padding: 6px 8px;
+    font-size: 0.6rem;
+}

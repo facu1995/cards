@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+}
+
+a{
+    font-size:20px;
+}
+
+body{
+    background-color:black;
+    
+}
+li a{
+    display: block;
+    padding:10px 0;
+    color: white;
+    border-bottom: 1px solid rgb(78, 78, 78);
+}
+li a:hover{
+    background: rgb(121, 118, 118);
+}
